@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="img/avatar.png">
+    <link href="img/logo.svg">
+    <link href="js/signup.js">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top" style="background-color:black;">
+        <div class="container" style="background-color:black;">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <!-- Dropdown Section -->
+                        <li class="nav-item dropdown" style="margin-right:90px;">
+                            <button class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="background-color:black; border: none;">
+                                AI Tools
+                            </button>
+                            <div class="dropdown-menu bg-light mt-2 custom-dropdown" style="text-align: center; left: auto !important; border: none;">
+                                <div class="container" style="background-color:white; color:black; width:420px; margin-left:-200px; margin-right:100px; height:150px; border: none;">
+                                    <div class="dropdown__wrapper">
+                                        <div class="dropdown">
+                                            <ul class="list-items-with-description row" style="list-style: none; padding-left: 0; text-align: justify; border: none;">
+                                                <li class="col-md-6" style="margin-top:12px; border: none;">
+                                                    <a href="ai_pt.html" class="dropdown-item" style="border: none;width:186px;">AI Productivity Tools</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_video.html" class="dropdown-item" style=" margin-top:12px; border: none;">AI Video Tools</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_text.html" class="dropdown-item" style="border: none;">AI Text Generators</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_business.html" class="dropdown-item" style="border: none;">AI Business Tools</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_image.html" class="dropdown-item" style="border: none;">AI Image Generators</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_auto.html" class="dropdown-item" style="border: none;">Automation Tools</a>
+                                                </li>
+                                                <li class="col-md-6" style="border: none;">
+                                                    <a href="ai_art.html" class="dropdown-item" style="border: none;">AI Art Generators</a>
+                                                </li>
+                                                <!-- Add more items here if needed -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                        <!-- End of Dropdown Section -->
+                        <a href="about.html" class="nav-item nav-link" style="margin-left:118px; margin-top:-26px;">About</a>
+                        <a href="contact.html" class="nav-item nav-link" style="margin-left:200px; margin-top:-25px;">Contact</a>
+                        <a href="signup.html" class="nav-item nav-link" style="margin-left:290px; margin-top:-24px;">Sign Up</a>
+                    </div>
+                    <button type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+<!-- Navbar End -->
+
+    <div class="form-wrapper">
+        <main class="form-side">
+            <!-- <a href="#" title="Logo">
+                <img src="img/logo.svg" alt="Supabase Logo" class="logo">
+            </a> -->
+            <form class="my-form">
+                <div class="form-welcome-row">
+                    <h1>Get started</h1>
+                    <h2>Create a new account</h2>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Google">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                        </svg>
+                        Continue with Github
+                    </a>
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div>
+                    or
+                    <div class="divider-line"></div>
+                </div>
+                <div class="text-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="you@example.com"
+                        required>
+                    <div class="error-message">Email in incorrect format</div>
+                </div>
+                <div class="text-field">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" placeholder="Your password" title="Minimum 6 characters at 
+                                                        least 1 Alphabet and 1 Number"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                    <div class="error-message">Minimum 6 characters at
+                        least 1 Alphabet and 1 Number</div>
+                </div>
+                <button class="my-form__button" type="submit">
+                    Sign up
+                </button>
+                <div class="my-form__actions">
+                    <div class="my-form__row">
+                        <span>Have an account?</span>
+                        <a href="#" title="Reset Password">
+                            Sign In Now
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <aside class="info-side">
+            <div class="blockquote-wrapper">
+                <blockquote>
+                    Working with Supabase is just fun. It makes working with a DB so much easier.
+                </blockquote>
+                <div class="author">
+                    <img src="img/avatar.png" alt="Avatar" class="avatar">
+                    <span class="author-name">@avatar</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>

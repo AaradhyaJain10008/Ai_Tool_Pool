@@ -1,0 +1,4 @@
+bootstrap.min.js  :   line 71-89  :  h6,5,4,3,2,1     '   color: #cbceec;  '
+bootstrap.min.js  :   line 50-60  :  body             '   color: #fff;     '
+
+
